@@ -1,0 +1,14 @@
+indir: E:/实践/图像修复/LAMA_Ceiling/lama/lama/  # to be overriden in CLI
+outdir: E:/实践/图像修复/LAMA_Ceiling/lama/temp/  # to be overriden in CLI
+
+model:
+  path: E:/实践/图像修复/LAMA_Ceiling/lama/big-lama/  # to be overriden in CLI
+  checkpoint: best.ckpt
+
+dataset:
+  kind: default
+  img_suffix: .png
+  pad_out_to_modulo: 8
+
+device: cuda
+out_key: inpainted
